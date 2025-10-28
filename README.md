@@ -13,13 +13,29 @@ Task 1: Project Setup
 ✅ Set up a structured folder layout:
 
 src/
+
+
 ├── components/
+
+
 ├── context/
+
+
 ├── hooks/
+
+
 ├── pages/
+
+
 ├── utils/
+
+
 ├── App.jsx
+
+
 ├── main.jsx
+
+
 └── index.css
 
 
@@ -118,8 +134,13 @@ The app will start at http://localhost:5173/
  (default Vite port).
 
 📸 Screenshots
-./screenshot/screenshot1.PNG
-./screenshot/screenshot2.PNG
+
+
+[[Screenshot1](./screenshots/screenshot1.PNG)]
+
+
+[[Screenshot2](./screenshots/screenshot2.PNG)]
+
 	
 🧰 Tech Stack
 
