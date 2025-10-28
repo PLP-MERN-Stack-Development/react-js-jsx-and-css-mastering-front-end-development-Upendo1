@@ -141,7 +141,14 @@ The app will start at http://localhost:5173/
 
 [[Screenshot2](./screenshots/screenshot2.PNG)]
 
-	
+
+VERCEL DEPLOYMENT LINK 
+
+
+https://react-js-jsx-and-css-git-main-upendos-projects.vercel.app
+
+
+
 🧰 Tech Stack
 
 React JS (Vite)
