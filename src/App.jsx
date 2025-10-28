@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Routes, Route, Link } from 'react-router-dom'
-import Home from './pages/Home'
-import About from './pages/About'
+import Home from './pages/home'
+import About from './pages/about'
 import Layout from "./components/Layout";
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -58,17 +58,4 @@ function App() {
 
 export default App
 
-// import React from "react";
-// import { ThemeProvider } from "./context/themecontext";
-// import Layout from "./components/Layout";
-
-// function App() {
-//   return (
-//     <ThemeProvider>
-//       <Layout />
-//     </ThemeProvider>
-//   );
-// }
-
-// export default App;
 
