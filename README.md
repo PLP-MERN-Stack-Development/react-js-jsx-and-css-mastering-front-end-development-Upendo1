@@ -1,70 +1,134 @@
-# React.js and Tailwind CSS Assignment
+🧩 React JS, JSX, and CSS Mastering Project
+📘 Overview
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+This Assignment demonstrates the mastery of React JS, JSX, and Tailwind CSS through a structured approach that includes component-based architecture, state management, API integration, and responsive design.
 
-## Assignment Overview
+🚀 Task Breakdown
+Task 1: Project Setup
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+✅ Created a new React application using Vite
 
-## Getting Started
+✅ Installed and configured Tailwind CSS
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Start the development server:
-   ```
-   npm run dev
-   ```
+✅ Set up a structured folder layout:
 
-## Files Included
-
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
-
-## Requirements
-
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
-
-## Project Structure
-
-```
 src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
-```
+├── components/
+├── context/
+├── hooks/
+├── pages/
+├── utils/
+├── App.jsx
+├── main.jsx
+└── index.css
 
-## Submission
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+✅ Configured React Router for navigation between pages
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
+Task 2: Component Architecture
 
-## Resources
+Created reusable and modular UI components:
 
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+Component	Description
+Button	Supports multiple variants — primary, secondary, and danger
+Card	Displays content in a boxed layout
+Navbar	Provides site navigation links
+Footer	Includes links and copyright information
+Layout	Wraps pages with Navbar and Footer for consistent design
+
+All components use props to allow customization and reusability.
+
+Task 3: State Management & Hooks
+
+Implemented a Task Manager component with CRUD functionality.
+
+✳️ Features:
+
+Add new tasks
+
+Mark tasks as completed
+
+Delete tasks
+
+Filter tasks (All / Active / Completed)
+
+🧠 React Hooks Used:
+
+useState → Manage local state
+
+useEffect → Handle side effects (e.g., loading tasks)
+
+useContext → Theme management (Light / Dark mode)
+
+Custom Hook: useLocalStorage → Persist tasks in local storage
+
+Task 4: API Integration
+
+Fetched and displayed data from a public API (JSONPlaceholder).
+
+🌐 Features:
+
+Fetch data dynamically
+
+Display results in a list/grid layout
+
+Handle loading and error states
+
+Implement pagination / infinite scrolling
+
+Add a search filter for quick data lookup
+
+Task 5: Styling with Tailwind CSS
+
+Leveraged Tailwind CSS for elegant, responsive design.
+
+💅 Key Styling Features:
+
+Mobile-first responsive design
+
+Theme switcher (Light/Dark mode) using Tailwind’s darkMode
+
+Utility classes for:
+
+Layout
+
+Spacing
+
+Typography
+
+Colors
+
+Custom animations and transitions for interactive elements
+
+⚙️ Installation & Setup
+# Clone this repository
+git clone <your-repo-url>
+
+# Navigate to the project directory
+cd react-js-jsx-and-css-mastering
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
+
+
+The app will start at http://localhost:5173/
+ (default Vite port).
+
+📸 Screenshots
+./screenshot/screenshot1.PNG
+./screenshot/screenshot2.PNG
+	
+🧰 Tech Stack
+
+React JS (Vite)
+
+Tailwind CSS
+
+React Router DOM
+
+Context API
+
+JSONPlaceholder API
